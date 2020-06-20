@@ -8,6 +8,7 @@ project(Voice-Detector
 set(SOURCE
     main.cpp
 )
+
 list(TRANSFORM SOURCE PREPEND src/vd/)
 
 add_executable(vd ${SOURCE})

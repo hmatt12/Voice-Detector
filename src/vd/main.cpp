@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vd/header.hpp>
+#include <vd/decoder.hpp>
 
 int main(int argc, char **argv) {
     HeaderObject<int> thing;
